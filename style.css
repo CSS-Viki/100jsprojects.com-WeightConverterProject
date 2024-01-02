@@ -1,0 +1,44 @@
+:root {
+  --primary-color: darkcyan;
+  --font-family-default: "Courier New", Courier, monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(to left top, yellow, lightblue, yellow);
+  font-family: var(--font-family-default);
+  color: var(--primary-color);
+  display: grid;
+  place-items: center;
+}
+.container {
+  max-width: 500px;
+  width: 100%;
+  padding: 2em 1em;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+.container > div {
+  padding-block: 30px 20px;
+}
+input[type="number"] {
+  padding: 1em;
+  background-color: transparent;
+  border-radius: 8px;
+  width: 80%;
+}
+input[type="number"]:focus {
+  border: 2px solid green;
+  outline: none; /* This removes the default focus outline */
+}
+
+input[type="number"],
+input::placeholder {
+  color: green;
+  font-size: 1.2rem;
+}
