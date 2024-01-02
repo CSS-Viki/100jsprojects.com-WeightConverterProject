@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   weightEl.addEventListener("input", () => {
     let inputValue = parseFloat(weightEl.value); // to explicitly convert the input to a number and then check if it's a valid number.
 
-    if (!isNaN(inputValue)) {
+    if (!isNaN(inputValue) && inputValue > 0) {
       let result = inputValue * 0.453592; // Output to kilograms
       calculatedKgs.textContent = result.toFixed(2);
       errorMessage.textContent = ""; // Clear error message, if it was there
