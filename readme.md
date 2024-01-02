@@ -13,7 +13,7 @@ A weight converter project that converts pounds to kilograms. The webpage featur
 # Resources i used
 - ChatGPT 
 
-Live [site](https://dice-roll-simulator.onrender.com)
+Live [site](https://weight-converter-proj.onrender.com)
 
 If you have insights on where i can improve or you want to connect with me feel free to do so 
 👉🏽 [here](https://twitter.com/vykiddeh_)

@@ -2,7 +2,6 @@ let weightEl = document.getElementById("weight");
 let calculatedKgs = document.getElementById("calculated-kgs");
 const errorMessage = document.getElementById("error");
 
-document.addEventListener("DOMContentLoaded", () => {
   weightEl.addEventListener("input", () => {
     let inputValue = parseFloat(weightEl.value); // to explicitly convert the input to a number and then check if it's a valid number.
 
@@ -27,4 +26,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     
   });
-});
+
